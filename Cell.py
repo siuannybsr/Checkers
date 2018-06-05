@@ -63,7 +63,7 @@ class Cell(pygame.sprite.Sprite):
         self.image = pygame.Surface([tamanho_casas, tamanho_casas])
         self.image.fill(cores[sugerido])
 
-    def update_position(self, position):
+    def atualizar_posicao(self, position):
         self.rect.x, self.rect.y = position
 
     def tem_peca(self):
